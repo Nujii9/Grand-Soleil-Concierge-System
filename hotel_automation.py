@@ -2,12 +2,12 @@ import mysql.connector
 from datetime import date
 import sys
 
+# hotel_automation.py
 def get_db_connection():
-    """Establish connection to the same MySQL database used by PHP."""
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="root", # Match your config.php settings
+            user="root", 
             password="", 
             database="hotel_db"
         )
