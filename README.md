@@ -8,6 +8,7 @@ hotel_system/
 ├── config.php      ← DB credentials & hotel configuration
 ├── api.php         ← Full CRUD REST API (all backend logic)
 └── index.html      ← Frontend UI (single-page app)
+└── hotel_automation.py ← Python script for automated alerts & revenue analytics
 ```
 
 ---
