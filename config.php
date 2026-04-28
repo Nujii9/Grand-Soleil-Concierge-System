@@ -4,10 +4,10 @@
 // ============================================================
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');          // ← change to your MySQL user
-define('DB_PASS', '');              // ← change to your MySQL password
-define('DB_NAME', 'hotel_db');
-define('DB_PORT', 3306);
+define('DB_USER', 'root');      // Default username for local servers
+define('DB_PASS', '');          // Default password (usually empty for XAMPP)
+define('DB_NAME', 'hotel_db');  // This MUST match the name in your schema.sql
+define('DB_PORT', 3306);        // Default MySQL port
 
 define('HOTEL_NAME',    'Grand Soleil Hotel');
 define('HOTEL_ADDRESS', '123 Rizal Ave, Makati City, Metro Manila');
