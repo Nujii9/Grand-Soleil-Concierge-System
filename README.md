@@ -40,11 +40,13 @@ define('DB_NAME', 'hotel_db');
 
 Place all 3 PHP/HTML files in your web server's root, e.g.:
 
-- **XAMPP**: `C:/xampp/htdocs/hotel/`
-- **WAMP**: `C:/wamp64/www/hotel/`
-- **Linux/Mac**: `/var/www/html/hotel/`
+- **XAMPP**: `C:/xampp/htdocs/Grand Soleil Hotel/`
+- **WAMP**: `C:/wamp64/www/Grand Soleil Hotel/`
+- **Linux/Mac**: `/var/www/html/Grand Soleil Hotel/`
 
-Then open: `http://localhost/hotel/index.html`
+Then open: `http://localhost/Grand Soleil Hotel/index.html`
+
+- **Before opening the localhost, make sure you run the server with XAMPP
 
 ---
 
